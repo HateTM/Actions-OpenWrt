@@ -19,15 +19,15 @@ on:
         type: string
 
 env:
-  REPO_URL: https://git.openwrt.org/openwrt/openwrt.git
-  REPO_BRANCH: master
+  REPO_URL: https://github.com/HateTM/tpl_ax80_ubi.git
+  REPO_BRANCH: new
   BUILD_ROOT: ${{ github.workspace }}/openwrt
   DEPENDENCIES: ${{ github.workspace }}/dependencies-ubuntu.txt
   CUSTOM_FEEDS_SH: ${{ github.workspace }}/custom-feeds.sh
   CUSTOM_PACKAGES_SH: ${{ github.workspace }}/custom-packages.sh
   CUSTOM_CONFIG_SH: ${{ github.workspace }}/custom-config.sh
   PREBUILD_MISC_SH: ${{ github.workspace }}/prebuild-misc.sh
-  TZ: Asia/Shanghai
+  TZ: Europe/Moscow
   DEVICE_NAME: unknown
   FILE_DATE: unknown
   FIRMWARE: unknown
