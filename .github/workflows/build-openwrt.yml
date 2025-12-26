@@ -20,7 +20,7 @@ on:
 
 env:
   REPO_URL: https://github.com/HateTM/tpl_ax80_ubi.git
-  REPO_BRANCH: new
+  REPO_BRANCH: dev
   BUILD_ROOT: ${{ github.workspace }}/openwrt
   DEPENDENCIES: ${{ github.workspace }}/dependencies-ubuntu.txt
   CUSTOM_FEEDS_SH: ${{ github.workspace }}/custom-feeds.sh
